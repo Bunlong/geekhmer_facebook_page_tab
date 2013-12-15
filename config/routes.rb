@@ -1,4 +1,6 @@
 GeekhmerFacebookPageTab::Application.routes.draw do
+  root :to => 'homes#index'
+  resources :homes
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
